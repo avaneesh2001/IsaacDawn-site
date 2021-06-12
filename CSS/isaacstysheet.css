@@ -1,0 +1,261 @@
+/*global styles
+---------------------------*/
+html{
+  box-sizing: border-box;    /*box model fix*/
+  }
+  *,*:before, *:after{
+    box-sizing: inherit;
+  }
+  body{
+    color: #010A14;
+    background: #F9DBBD;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.50;
+    font-size: 18px;
+  }
+  img{
+    width: 300px;
+    padding: 10px;
+    border: 5px;
+  }
+
+  a{
+    color: #88D9E6;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #084D9B;
+  }
+  h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 72px;
+    line-height: 1;
+    margin: 10px;
+  }
+  h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 36px;
+  }
+  .content-wrap{
+    max-width: 1000px;
+    width: 85%;
+    margin: 0 auto;
+    padding:50px o;
+  }
+  /*Navigation
+  ---------------------------*/
+  header{
+    background: #021327;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 8px;
+  }
+  .Navigation{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .Navigation a{
+    color: #F9DBBD;
+    padding: 15px;
+    font-size: 20px;
+    display:inline-block;
+  }
+  .Navigation a:hover{
+    color: #88D9E6;
+  }
+  /*profile
+  ---------------------------*/
+  .profie{
+
+      /*Gradient CSS*/
+      background: hsla(154, 100%, 76%, 1);
+      background: linear-gradient(135deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 79%, hsla(288, 100%, 81%, 1) 100%);
+      background: -moz-linear-gradient(135deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 79%, hsla(288, 100%, 81%, 1) 100%);
+      background: -webkit-linear-gradient(135deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 79%, hsla(288, 100%, 81%, 1) 100%);
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#84ffc9", endColorstr="#aab2ff", GradientType=1 );
+
+    color: #023B2C;
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+  /*PROJECTS
+  ---------------------------*/
+  .projects{
+    background: #EAE0D5;
+    color: #22333B;
+    border-radius: 8px;
+  }
+  .projects .button{
+    color: #bfb1c1ff;
+        background: hsla(333, 100%, 53%, 1);
+        background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+        background: -moz-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+        background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0F7B", endColorstr="#F89B29", GradientType=1 );
+    padding: 8px;
+    border-radius: 8px;
+    font decoration: none;
+    display: inline-block;
+    margin-top: 10px
+  }
+  .projects  .button:hover{
+    background: rgba(19, 60, 85, 0.7);
+  }
+  .project-item{
+    overflow:hidden;
+    border-bottom: 2px dashed  #133c55ff;
+  }
+  .project-item h3{
+    padding: 5px;
+    text-decoration: underline;
+  }
+  .project-item img{
+   float: left;
+   margin: 20px;
+   padding: 5px;
+   }
+ /*Skills
+   ---------------------------*/
+   .skills{
+     background: #22333B;
+     color: #EAE0D5;
+     text-decoration: none;
+     border-radius: 8px;
+   }
+   .skill-list{
+     list-style-type: none;
+
+   }
+   .skill-list li{
+     display: inline-block;
+     padding: 10px;
+   }
+   /*EDUCATION
+   ---------------------------*/
+   .Education{
+     color: #DEC5E3;
+      background: #1a274f;
+     padding: 20px;
+   }
+   .Education ul:last-of-type{
+     padding-top: 0;
+     padding-bottom: 30px;
+   }
+   .edu-item{
+     list-style-type: circle;
+   }
+   /*Accomplishments
+   ---------------------------*/
+   .accomplishments{
+     
+     border-radius: 8px;
+     padding: 5px;
+   }
+   .accomplishments .acc-lst{
+     list-style-type: none;
+   }
+   .acc-lst li{
+     display: inline-block;
+     padding: 5px;
+   }
+   /*Contact
+   ---------------------------*/
+   .contact{
+     list-style-type: none;
+     overflow: hidden;
+     background: #12130F;
+     color: #EAE6E5;
+     }
+   .contact .contact-list{
+     list-style-type: none;
+   }
+   .contact a{
+     display: inline-block;
+     padding: 5px;
+   }
+
+   /*Footer
+   ---------------------------*/
+   footer{
+       background: hsla(339, 100%, 55%, 1);
+       background: linear-gradient(315deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+       background: -moz-linear-gradient(315deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+       background: -webkit-linear-gradient(315deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+       filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ff1b6b", endColorstr="#45caff", GradientType=1 );
+     padding: 10px;
+     color: #FFFFF;
+   }
+   footer p{
+     text-align: center;
+   }
+/*responsive*/
+   @media screen and (min-width:800px){
+
+     .profile, footer{
+       text-align: center;
+     }
+      .project-item img{
+       float: left;
+       margin: 20px;
+       padding: 5px;
+       }
+
+       .contact{
+       display: flex;
+       justify-content: center;
+     }
+      .contact img{
+         float: right;
+         margin: 20px;
+         padding: 5px;
+         border: 2px dashed #12263A;
+
+         }
+         .contact .contact-list{
+           list-style-type: none;
+           display: flex;
+           justify-content: space-around;
+         }
+         .skills-list{
+           display: flex;
+           justify-content: flex-start;
+         }
+         .skills{
+           background-image: url(../images/Black-Desk-Background.jpg);
+           background-repeat: no-repeat;
+           background-position: ;
+           background-size: auto;
+           padding: 25px;
+           text-align: right;
+         }
+         .Education{
+           color: #22333B;
+           background-image: url(../images/Home-Landing-scaled.jpeg);
+           background-repeat: no-repeat;
+           background-position: center right;
+           background-size: auto;
+           padding: 25px;
+         }
+   }
+   @media screen and (max-width:799px){
+     body{
+       font-size: 16px;
+     }
+     h1{
+       font-size: 36px;
+     }
+     h2{
+       font-size: 24px;
+     }
+
+     h1,h2{
+       line-height: 1.0;
+     }
+     .contact a{
+       padding: 5px;
+     }
+
+   }
